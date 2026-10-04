@@ -1,0 +1,41 @@
+# === Секреты ===
+.env
+.env.*
+!.env.example
+
+# === Python мусор ===
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# === Виртуальные окружения ===
+.venv/
+venv/
+env/
+
+# === PyCharm / IDE ===
+.idea/
+*.iml
+.vscode/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Входные данные от организаторов (не коммитим) ===
+input/
+references/
+
+# === Выходные и промежуточные результаты ===
+output/
+results/
+result/
+service/
+intermediate/
+logs/
+.test-run-*/
+
+# === Логи ===
+*.log

@@ -1,0 +1,16 @@
+{
+  "deidentify.py": "f5990fc9497fa01f3104dc067ae0a07ce09146d372b14271cc97d1bb8dc6a658",
+  "parser.py": "8f50c93d112c32a4c0da7fe36e5ddb3e06047ffdaf73bcfb99efe134970c7323",
+  "prompt_builder.py": "8e52e1d628ebb7ea67a5e79aded55d160f70d532b4a37e89e0d5030ab1eaa6a5",
+  "participant-output-template-v2.json": "5c9eef4b6ba58e472f0fbfd38189e2e5c0cee6af426fb61f9a6c197f058b34ac",
+  "tests/test_deidentify.py": "d52b5bf84e8278fe382ceef904b26d04894952fa3606e8f7dc47250a85832445",
+  "tests/fixtures/train-0001.md": "b83bec5d5ef41c42ef87718f9acd5433de0566b7b67d11cc67549ef698b49418",
+  "tests/fixtures/train-0002.md": "45bf1749e66bba74808135a08aac973e7cc7f3e821ec954dffd4a1046cb7a6ce",
+  "tests/fixtures/train-0003.md": "6153e12cc58dc8c6ed2b533a325b1b4353cea2cbc20c9bce1ad56187bad358f9",
+  "field_contract.py": "dd5adf6fbf43d4caf3263720bf9674b49090378567b78a921e4f54266c572486",
+  "field_contract_impl.py": "75b235eeeed65ed2c0d1d3cb89faf797cc15e01d3060d9c26e85404e4aaf681f",
+  "parser_impl.py": "29de7269fbb634b14e4daaa8ca198c16d7db5bcd123df0d960b5a8dbc5c285f2",
+  "deidentify_impl.py": "72c90179f9b9c18a9d3601b10bbb6ee311fc5dcea967849010706d0a4825aee5",
+  "prompt_builder_impl.py": "30c0cd2f4422b3f690543ccec7c83987389716af3b504e16db5461ddda5b95e7",
+  "tests/test_input_to_llm.py": "48cd27a5252b532e160f3a5d043cdeb2c3b6cc4dd00bf60717f4092c1d3944d0"
+}

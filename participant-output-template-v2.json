@@ -1,0 +1,97 @@
+{
+  "admission_date": "Не указано",
+  "discharge_date": "Не указано",
+  "art_hyper": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "atr_fibril": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "ckd": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "copd": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "diagnosis_icd": "Не указано",
+  "dm": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "hf": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "killip": "Не указано",
+  "mi_localisation": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "tlt": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "type_acs": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "bmi": "Не указано",
+  "bp": "Не указано",
+  "bpm": "Не указано",
+  "height": "Не указано",
+  "rr": "Не указано",
+  "smoking": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "spo2": "Не указано",
+  "weight": "Не указано",
+  "ecg_avb": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "ecg_bpm": "Не указано",
+  "ecg_elevation": "Не указано",
+  "ecg_rythm": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "echo_ef": "Не указано",
+  "echo_lvd": "Не указано",
+  "echo_lvd_2": "Не указано",
+  "echo_mr": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "echo_zone": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "rg_date": "Не указано",
+  "rg_pc": {
+    "code": 0,
+    "text": "Не указано"
+  },
+  "ca_date": "Не указано",
+  "ca_fact": "N",
+  "ca_lad": "Не указано",
+  "rca": "Не указано",
+  "card_trop": "Не указано",
+  "crea": "Не указано",
+  "glu": "Не указано",
+  "hb": "Не указано",
+  "ldl": "Не указано",
+  "leucocytes": "Не указано",
+  "thrombocytes": "Не указано",
+  "tot_chol": "Не указано",
+  "2_aag": 0,
+  "ace_ing_sartan": 0,
+  "anticoagulant": 0,
+  "aspirin": 0,
+  "bb": 0,
+  "statin": 0
+}

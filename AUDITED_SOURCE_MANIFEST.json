@@ -1,0 +1,10 @@
+{
+  "deidentify.py": "0298515a8e24c7775a99642f08be294b7bfce3b8a4734af18c3d81882fa4e0f5",
+  "parser.py": "2ec7b4daa1e006d8051a3c0f192d347b7e0893070399577073ee4a7bee405f80",
+  "prompt_builder.py": "a53fe0568364382c00671317c634c23d617c9d1d839bc933e6f03b48390e6e36",
+  "participant-output-template-v2.json": "4b0f5e3ea6c605788d0906398c279542b4b4b46c084ef7bf16bfe995f8189991",
+  "tests/test_deidentify.py": "d52b5bf84e8278fe382ceef904b26d04894952fa3606e8f7dc47250a85832445",
+  "tests/fixtures/train-0001.md": "b83bec5d5ef41c42ef87718f9acd5433de0566b7b67d11cc67549ef698b49418",
+  "tests/fixtures/train-0002.md": "45bf1749e66bba74808135a08aac973e7cc7f3e821ec954dffd4a1046cb7a6ce",
+  "tests/fixtures/train-0003.md": "6153e12cc58dc8c6ed2b533a325b1b4353cea2cbc20c9bce1ad56187bad358f9"
+}

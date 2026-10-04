@@ -1,0 +1,159 @@
+{
+  "created_date": "2026-10-04",
+  "upstream_priority": "fresh attachments",
+  "downstream_priority": "audited-pipeline.zip",
+  "input_attachments": [
+    {
+      "name": "prompt_builder (3).py",
+      "sha256": "8e52e1d628ebb7ea67a5e79aded55d160f70d532b4a37e89e0d5030ab1eaa6a5"
+    },
+    {
+      "name": "participant-output-template-v2 (5).json",
+      "sha256": "0751ac76c89b577fdefaccdbeefd2b3043029cbc2b8a95210dc9abff4e6ce344"
+    },
+    {
+      "name": "parser_impl.py",
+      "sha256": "47ab3c4e4a63dbe6e153df87c15bf6ccf4473f37cec05241fd1323a2ef92c5ba"
+    },
+    {
+      "name": "parser (4).py",
+      "sha256": "8f50c93d112c32a4c0da7fe36e5ddb3e06047ffdaf73bcfb99efe134970c7323"
+    },
+    {
+      "name": "FIXES_INPUT_TO_LLM.md",
+      "sha256": "a6765ac68bd80c1988beb302c445e0ce1bf35657fddf76e34e06ab73f7dd9840"
+    },
+    {
+      "name": "field_contract_impl.py",
+      "sha256": "617e5907831818b5e990a181998a31cccdf96df1a53e0246322a410a4f96bc70"
+    },
+    {
+      "name": "field_contract (3).py",
+      "sha256": "a70c0fe0aa9b851c70618561611c360fba1eb881261c30c4ca6c955d3e4e0a35"
+    },
+    {
+      "name": "deidentify (2).py",
+      "sha256": "f5990fc9497fa01f3104dc067ae0a07ce09146d372b14271cc97d1bb8dc6a658"
+    },
+    {
+      "name": "FIXES_LLM_TO_OUTPUT.md",
+      "sha256": "b5b4b671c97bc7f057a9ae4a97844f6ea89d7e86f159cb4971d4c323c97a4edc"
+    },
+    {
+      "name": "audited-pipeline.zip",
+      "sha256": "a9612ea17de9e08bac8599e429fa9b2f356749c06b7b10e0e8c5e37303dd7e87"
+    }
+  ],
+  "recovered_sources": {
+    "deidentify_impl.py": "local deidentify.py (2).txt, unchanged",
+    "prompt_builder_impl.py": "local prompt_builder.py + fixes reconstructed from FIXES_INPUT_TO_LLM.md",
+    "tests/test_input_to_llm.py": "local test_input_to_llm.py, unchanged"
+  },
+  "unchanged_downstream_modules": [
+    "llm_client.py",
+    "merge.py",
+    "finalization.py",
+    "final_validator.py",
+    "runtime_contract.py",
+    "privacy_guard.py",
+    "pipeline_errors.py",
+    "json_io.py"
+  ],
+  "modified_downstream_modules": [
+    "batch_runner.py",
+    "manual_llm_test.py",
+    "contract_validation.py"
+  ],
+  "tests": {
+    "total": 232,
+    "result": "OK",
+    "real_api_calls": 0,
+    "network_blocked": true
+  },
+  "files": {
+    ".env.example": "e2c10b4ce413a6557d10ff29194c437ef554e6a1ebb8d4546337abd7daebbf41",
+    ".gitignore": "6732fa609bbe22457875712f70e77324b0536351e42fc9ab8e97b6b7a48785da",
+    "AUDITED_SOURCE_MANIFEST.json": "8aaffb0e9d2ebf620961bb0212cae9079c9f2c6930691ddcb3b895e688e9cb8b",
+    "batch_runner.py": "95da02c6a77b5cc5cfb8ead9622316ca389f9619a73571fdd567872bf1050e9e",
+    "clinical_rules.py": "a69c03f17f06c7fcbe3968052912e1214a624994e5b425142355ea161314713c",
+    "contract_validation.py": "f577b5424868a098fda5429a5f2d55effcd45c0e382905608ac86a488f486cc7",
+    "deidentify.py": "f5990fc9497fa01f3104dc067ae0a07ce09146d372b14271cc97d1bb8dc6a658",
+    "deidentify_impl.py": "72c90179f9b9c18a9d3601b10bbb6ee311fc5dcea967849010706d0a4825aee5",
+    "evidence_layer.py": "7170b711ec34e920460ea186b88cce31c6e50275e5d578cb25fcb593ec17a5d4",
+    "field_contract.py": "dd5adf6fbf43d4caf3263720bf9674b49090378567b78a921e4f54266c572486",
+    "field_contract_impl.py": "75b235eeeed65ed2c0d1d3cb89faf797cc15e01d3060d9c26e85404e4aaf681f",
+    "final_validator.py": "92c28dac5f23f7ce95a99faf98620e1711ea78cd9d2137129816029a06b4c6f6",
+    "finalization.py": "af0ef6aa6451a16641fd1f202b1dccc6ab305d32c00fb70dc1a1c88f0ee89010",
+    "FIXES_INPUT_TO_LLM.md": "a6765ac68bd80c1988beb302c445e0ce1bf35657fddf76e34e06ab73f7dd9840",
+    "FIXES_LLM_TO_OUTPUT.md": "b5b4b671c97bc7f057a9ae4a97844f6ea89d7e86f159cb4971d4c323c97a4edc",
+    "json_io.py": "34e9e15d6f2338a23fa8ca4647bd4278dfcce8b616272d2d035e5fc40b2e5757",
+    "llm_client.py": "e6035d2de8d8c57280e6f070c04da1102f1942a28130eae383eacecd9e57d4be",
+    "manual_llm_test.py": "af6e17e30fd9c5fd2198f2748a28c58d167d6c9ddf10b216a39b3d0225165cc2",
+    "merge.py": "2f07edb971ed540122cb69561533683eef0a1db4f203ca732751148b01d9afd7",
+    "MERGE_REPORT.md": "5b9833983b511719a4473131373e15b46fbc3bbb08b6018d8187bd625cbd6631",
+    "parser.py": "8f50c93d112c32a4c0da7fe36e5ddb3e06047ffdaf73bcfb99efe134970c7323",
+    "parser_impl.py": "29de7269fbb634b14e4daaa8ca198c16d7db5bcd123df0d960b5a8dbc5c285f2",
+    "participant-output-template-v2.json": "5c9eef4b6ba58e472f0fbfd38189e2e5c0cee6af426fb61f9a6c197f058b34ac",
+    "PATCH_REPORT.md": "cbb2b9d5258b60b1e15bca1e7e6c756013d90c534555f06633b725f7e3bc33f7",
+    "pipeline_errors.py": "ddcda9d778d8ad7546ad57aecf45f13c137c87e1cc8f61e2f47fe2b113244a1f",
+    "privacy_guard.py": "5b42d547fff48f85662e619c216645c6ce22c01140fd4770c8aa152245449273",
+    "prompt_builder.py": "8e52e1d628ebb7ea67a5e79aded55d160f70d532b4a37e89e0d5030ab1eaa6a5",
+    "prompt_builder_impl.py": "30c0cd2f4422b3f690543ccec7c83987389716af3b504e16db5461ddda5b95e7",
+    "README.md": "25c113f217839c3f170bc6ca9a29e6dc0c9b60fc612d615fbaa952b755b9bd44",
+    "references/AUDITED_README.md": "da86bfd23f72714407af8a79f997e945ff5128a957b186df078a8bf02ff1029f",
+    "references/MERGE_SOURCE_MANIFEST.json": "d2e487eae64206ca57457a27b34725fb6ba38b48f8a305aee3953df8570f6527",
+    "references/ORIGINAL_MERGE_MANIFEST.json": "eb4478a5fdae0ae99176722ba28e19937f6aa54bc14cb477ea2bb7ed694021ab",
+    "references/Итоговая_таблица_50_полей_100_эпикризов_финал.docx": "35c4520edf151f451c37f464af3fec82f2fc4f5252ccec6f93c894ac6c7c2b9b",
+    "requirements.txt": "5cd1633794bd0b707d9630ff441b7bdf4da2b2e54be928d0d32e9fde6c5af97f",
+    "run_tests_offline.py": "c6321d202d14e774011ad8a79515d2f3d0bb735ebbdf2a2cff561a9f848970b0",
+    "runtime_contract.py": "5bca02b189ecc8d1abacfdf350227ee6d74bb8af2c6a773812d62b15a4f7d09b",
+    "SOURCE_MANIFEST.json": "ffbcb171445cec91e4308be71a79bb573377a1e32b119cd29eabb5b2f82bb9a2",
+    "TEST_RESULTS.txt": "18e418df5e605452c1b03e68be943119d13db00a0d3521e299830aca94338cfd",
+    "tests/fixtures/train-0001.md": "b83bec5d5ef41c42ef87718f9acd5433de0566b7b67d11cc67549ef698b49418",
+    "tests/fixtures/train-0002.md": "45bf1749e66bba74808135a08aac973e7cc7f3e821ec954dffd4a1046cb7a6ce",
+    "tests/fixtures/train-0003.md": "6153e12cc58dc8c6ed2b533a325b1b4353cea2cbc20c9bce1ad56187bad358f9",
+    "tests/test_case_clarifications.py": "6a38d62b0dcb5e772adeb39c6d45a1f49bda51bfa111977bb68d5a7877cfff29",
+    "tests/test_deidentify.py": "d52b5bf84e8278fe382ceef904b26d04894952fa3606e8f7dc47250a85832445",
+    "tests/test_input_to_llm.py": "48cd27a5252b532e160f3a5d043cdeb2c3b6cc4dd00bf60717f4092c1d3944d0",
+    "tests/test_llm_client.py": "feaf48109c52a1a15d64ed28860f1e5969da4328e0ec4a0608d40fcb1a63adc6",
+    "tests/test_merge_integration.py": "5ca328839c1be2ea5a6ccbeecf96be821999cf126c1ced030abdac2d12083831",
+    "tests/test_output_pipeline.py": "7b1b828175e25dc899b9f357f28e1d97bd317d6d16c2e4a5b019c6de58ab4604"
+  },
+  "patch": {
+    "date": "2026-10-04",
+    "request": "Case clarifications; current pipeline patched in place",
+    "changed_files": [
+      ".gitignore",
+      "PATCH_REPORT.md",
+      "README.md",
+      "SOURCE_MANIFEST.json",
+      "TEST_RESULTS.txt",
+      "batch_runner.py",
+      "clinical_rules.py",
+      "contract_validation.py",
+      "evidence_layer.py",
+      "field_contract.py",
+      "field_contract_impl.py",
+      "llm_client.py",
+      "manual_llm_test.py",
+      "parser_impl.py",
+      "participant-output-template-v2.json",
+      "prompt_builder_impl.py",
+      "references/MERGE_SOURCE_MANIFEST.json",
+      "references/ORIGINAL_MERGE_MANIFEST.json",
+      "tests/test_case_clarifications.py",
+      "tests/test_input_to_llm.py",
+      "tests/test_llm_client.py",
+      "tests/test_merge_integration.py",
+      "tests/test_output_pipeline.py"
+    ],
+    "canonical_date_format": "DD.MM.YYYY",
+    "canonical_marker": "Не указано",
+    "icd_localisation": {
+      "I21.0": "передней стенки",
+      "I21.1": "нижней стенки"
+    },
+    "evidence": "Separate service map; exact source substring plus scope/value checks",
+    "previous_manifest": "references/ORIGINAL_MERGE_MANIFEST.json"
+  }
+}
